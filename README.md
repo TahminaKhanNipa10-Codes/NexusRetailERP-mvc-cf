@@ -59,3 +59,62 @@
 ---
 
 ## 💡 How Master-Details Pattern Works
+─────────────────────────────────────────────────┐
+│ ORDER (MASTER) │
+│ ┌───────────────────────────────────────────┐ │
+│ │ Customer: John Doe | Date: 15-Jan-2024 │ │
+│ └───────────────────────────────────────────┘ │
+│ │ │
+│ ▼ │
+│ ┌───────────────────────────────────────────┐ │
+│ │ ORDER DETAILS (DETAILS) │ │
+│ ├────────────┬──────────┬────────┬─────────┤ │
+│ │ Product │ Quantity │ Price │ Total │ │
+│ ├────────────┼──────────┼────────┼─────────┤ │
+│ │ Laptop │ 2 │ $800 │ $1,600 │ │
+│ │ Mouse │ 3 │ $20 │ $60 │ │
+│ ├────────────┼──────────┼────────┼─────────┤ │
+│ │ │ Grand Total: $1,660 │ │
+│ └────────────┴──────────┴────────┴─────────┘ │
+└─────────────────────────────────────────────────┘
+
+
+### Step-by-Step Process
+
+| Step | Action | Description |
+|------|--------|-------------|
+| 1 | Customer Info | Enter customer details (Master data) |
+| 2 | Select Category | Choose product category from dropdown |
+| 3 | Select Product | Products load via AJAX based on category |
+| 4 | Enter Quantity | Specify quantity (validated against stock) |
+| 5 | Add to List | Product added to details table (AJAX, no refresh) |
+| 6 | Real-time Total | Grand total updates automatically |
+| 7 | Edit/Remove | Modify or delete items from cart |
+| 8 | Save Order | All data saved with stock deduction |
+
+---
+
+## 🚀 Quick Installation
+
+### Prerequisites
+
+| Software | Version |
+|----------|---------|
+| Visual Studio | 2019 or 2022 |
+| .NET Framework | 4.8 |
+| SQL Server | LocalDB or Express |
+| Git | Latest |
+
+### Installation Steps
+
+```bash
+# 1. Clone repository
+git clone https://github.com/TahminaKhanNipa10-Codes/NexusRetailERP-mvc-cf.git
+
+# 2. Open project in Visual Studio
+# Double-click .sln file
+
+# 3. Restore NuGet packages
+Update-Package -Reinstall
+
+# 4. Build and Run (Press F5)
