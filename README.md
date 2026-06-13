@@ -30,7 +30,7 @@
 
 ### 2. Order List Page
 ![Order List](images/order-list.jpeg)
-*Complete list of all orders with search/filter options. Each row has action buttons for Details, Edit, and Delete operations.*
+*Complete list of all orders. Each row has action buttons for Details, Edit, and Delete operations.*
 
 ### 3. Product Management (Card View)
 ![Product Grid](images/product-grid.jpeg)
