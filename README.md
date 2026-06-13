@@ -25,23 +25,23 @@
 ## 🖼️ Screenshots
 
 ### 1. Order Create Page (Master-Details Form)
-![Order Create](images/order-create.png)
+![Order Create](images/order-create.jpeg)
 *Master-Details order form with customer info (Master) and product cart (Details). Features cascading dropdowns, AJAX product loading, and real-time total calculation.*
 
 ### 2. Order List Page
-![Order List](images/order-list.png)
+![Order List](images/order-list.jpeg)
 *Complete list of all orders with search/filter options. Each row has action buttons for Details, Edit, and Delete operations.*
 
 ### 3. Product Management (Card View)
-![Product Grid](images/product-grid.png)
+![Product Grid](images/product-grid.jpeg)
 *Modern card-based product display with image, price, stock status, and active/inactive badge. AJAX-powered search and filter by category.*
 
 ### 4. Admin Panel - Role & Permission Management
-![Admin Panel](images/admin-panel.png)
+![Admin Panel](images/admin-panel.jpeg)
 *Complete role management system. Create roles, assign to users, and configure controller-action level permissions.*
 
 ### 5. Login Page
-![Login](images/login.png)
+![Login](images/login.jpeg)
 *Secure authentication system with registration, login, and role-based access control.*
 
 ---
